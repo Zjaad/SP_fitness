@@ -113,6 +113,7 @@ while True:
             print(f'Your BMR is: {bmr:.2f}')
         elif choice == 2 :
             print(f'Your Maintenance Calories: {maintenance:.2f}')
+            print(' this is an estimate , activity levels are rules of thumb : check your weight after 2-3 weeks and adjust')
         elif choice == 3 :
             protein = UserMacro.protein()
             carb = UserMacro.carb()
@@ -125,6 +126,10 @@ while True:
             if User.GOAL in {'minicut' , 'supercut'} and carb[0] < ketoCarb:
                 print(paint(' low carb (keto range) : the first 7 days are the hardest , it gets easier after that' , cyan))
                 print(paint(' if you have a medical condition , talk to your doctor first' , cyan))
+            if User.GOAL in {'dirty bulk' , 'dirtybulk'}:
+                print(paint(' dirty bulk : +800 kcal is above the 10-20% surplus usually recommended for gaining lean mass' , cyan))
+            if User.GOAL in {'minicut' , 'supercut'}:
+                print(paint(' minicut : 30% below maintenance is an aggressive deficit , keep it short' , cyan))
         elif choice == 4 :
             if system == 'US':
                 print(f'Water : {fromMetric(water , "floz"):.0f} fl oz')

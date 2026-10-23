@@ -57,6 +57,14 @@ To add a unit or a split, add a line to its JSON file.
 
 Vitamins and minerals: [Dietary Reference Intakes Summary Tables](https://nap.nationalacademies.org/read/25353/chapter/28), National Academies, 2019.
 
+Calories, protein, fat and water, checked against published ranges:
+
+- Protein 1.6-2.2 g/kg to build muscle and 2.3-3.1 g/kg when cutting: [ISSN protein position stand](https://pmc.ncbi.nlm.nih.gov/articles/PMC5477153/), [Helms 2014](https://pmc.ncbi.nlm.nih.gov/articles/PMC4033492/), [Morton 2018](https://pmc.ncbi.nlm.nih.gov/articles/PMC5867436/)
+- Fat 0.5-1.5 g/kg and a surplus of 10-20% when bulking: [Iraki 2019](https://pmc.ncbi.nlm.nih.gov/articles/PMC6680710/)
+- Weight loss of 0.5-1% of body weight per week: [ISSN diets and body composition](https://pmc.ncbi.nlm.nih.gov/articles/PMC5470183/)
+- Water: the EFSA adequate intake of total water is 2.5 L for men and 2.0 L for women. The extra water for workouts is an estimate.
+- The activity multipliers are rules of thumb. [FAO/WHO/UNU](https://www.fao.org/3/y5686e/y5686e07.htm) uses different values and says they are for groups, not individuals.
+
 ## Note
 
 This is general information, not medical advice. ALWAYS SEARCH IN GOOGLE and Contact a doctor if you're facing any kind of medical issues . 

@@ -3,9 +3,9 @@
 from goal_calculator import Goal
 
 
-""" water_ml = weight_kg * 35 
-adding 350ml each 30min -- water_ml = (weight_kg * 35) + (exercise_minutes // 30) * 350 
- passing self.weight , and self.activity_Level """
+""" water_ml = 2000 (men) or 1600 (women) -- EFSA 2010 : the adequate intake of total water is 2.5 L / 2.0 L , about 80% of it comes from drinks 
+adding 350ml each 30min of exercise (an estimate , ACSM says to measure your own sweat loss) -- water_ml = base + (exercise_minutes // 30) * 350 
+ passing self.gender , and self.activity_Level """
 
 
 class Water(Goal):
@@ -16,7 +16,9 @@ class Water(Goal):
         minutes = 80
         if self.GOAL in {'dirty bulk', 'dirtybulk'}:
             minutes = 130
-        water_ML = self.weight * 35
+        water_ML = 2000
+        if self.gender.lower() == 'female':
+            water_ML = 1600
         if self.activity >= 1:
             return water_ML + ((minutes // 30)*350)
         else:

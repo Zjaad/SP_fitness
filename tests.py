@@ -37,7 +37,7 @@ class TestGoal(unittest.TestCase):
         self.assertAlmostEqual(man('cut').adj_cal() , maintenance - 400)
         self.assertAlmostEqual(man('gain').adj_cal() , maintenance + 400)
         self.assertAlmostEqual(man('dirty bulk').adj_cal() , maintenance + 800)
-        self.assertAlmostEqual(man('minicut').adj_cal() , maintenance / 2 + 300)
+        self.assertAlmostEqual(man('minicut').adj_cal() , maintenance * 0.7)
 
     def test_goal_aliases_match(self):
         self.assertEqual(man('bulk').adj_cal() , man('gain').adj_cal())
@@ -98,20 +98,31 @@ class TestWater(unittest.TestCase):
         return Water('t' , 27 , 'male' , 'x' , 90 , 177 , activity , goal)
 
     def test_water_with_workouts(self):
-        self.assertEqual(self.make(6 , 'gain').calc() , 90 * 35 + 700)
+        self.assertEqual(self.make(6 , 'gain').calc() , 2000 + 700)
 
     def test_water_without_workouts(self):
-        self.assertEqual(self.make(0 , 'cut').calc() , 90 * 35)
+        self.assertEqual(self.make(0 , 'cut').calc() , 2000)
 
     def test_dirty_bulk_uses_130_minutes(self):
-        self.assertEqual(self.make(6 , 'dirty bulk').calc() , 90 * 35 + 1400)
-        self.assertEqual(self.make(6 , 'dirtybulk').calc() , 90 * 35 + 1400)
+        self.assertEqual(self.make(6 , 'dirty bulk').calc() , 2000 + 1400)
+        self.assertEqual(self.make(6 , 'dirtybulk').calc() , 2000 + 1400)
+
+    def test_women_start_lower(self):
+        woman = Water('w' , 25 , 'female' , 'x' , 60 , 165 , 0 , 'cut')
+        self.assertEqual(woman.calc() , 1600)
+        woman = Water('w' , 25 , 'female' , 'x' , 60 , 165 , 3 , 'cut')
+        self.assertEqual(woman.calc() , 1600 + 700)
+
+    def test_body_weight_does_not_change_the_baseline(self):
+        light = Water('t' , 27 , 'male' , 'x' , 60 , 177 , 0 , 'cut')
+        heavy = Water('t' , 27 , 'male' , 'x' , 120 , 177 , 0 , 'cut')
+        self.assertEqual(light.calc() , heavy.calc())
 
     def test_goal_survives(self):
         self.assertEqual(self.make(6 , 'gain').GOAL , 'gain')
 
     def test_str(self):
-        self.assertIn('3850' , str(self.make(6 , 'gain')))
+        self.assertIn('2700' , str(self.make(6 , 'gain')))
 
 
 class TestUnits(unittest.TestCase):

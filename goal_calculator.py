@@ -21,7 +21,7 @@ class Goal(TDEERMB):
         elif self.GOAL == 'cut' :
             return self.maintenance() - 400
         elif self.GOAL == 'minicut' or self.GOAL == 'supercut' :
-            return (self.maintenance()/ 2) + 300
+            return self.maintenance() * 0.7
         elif self.GOAL == 'gain' or self.GOAL == 'bulk' :
             return self.maintenance() + 400
         elif self.GOAL == 'dirty bulk' or self.GOAL == 'dirtybulk' :
