@@ -1,6 +1,6 @@
 # SP
 
-A small command-line body calculator written in Python.
+A small command line body calculator written in Python. 
 
 It asks a few questions, then shows your BMR, maintenance calories, macros, daily water, and vitamins and minerals. It can save a report.
 
@@ -8,6 +8,10 @@ It asks a few questions, then shows your BMR, maintenance calories, macros, dail
 
 ```
 python3 exec.py
+```
+or 
+```
+cd  ~/<PATH>/SP_fitness && ./exec.py
 ```
 
 Python 3 only. No libraries to install.
@@ -55,4 +59,6 @@ Vitamins and minerals: [Dietary Reference Intakes Summary Tables](https://nap.na
 
 ## Note
 
-This is general information, not medical advice.
+This is general information, not medical advice. ALWAYS SEARCH IN GOOGLE and Contact a doctor if you're facing any kind of medical issues . 
+and the important thing is to accept yourself , if you cannot then try to improve it step by step. it's about the journey, enjoy your adventure. 
+any contribution is acceptable (MIT license) 
