@@ -1,0 +1,594 @@
+{
+    "source": "National Academies of Sciences, Engineering, and Medicine - Dietary Reference Intakes Summary Tables (Appendix J, Dietary Reference Intakes for Sodium and Potassium, 2019). Pregnancy and lactation are not included.",
+    "kinds": {"RDA": "recommended dietary allowance: covers nearly all healthy people", "AI": "adequate intake: an estimate, less certain than an RDA"},
+    "nutrients": {
+        "Vitamin A": {
+            "group": "vitamin", "unit": "µg RAE",
+            "maxNote": "preformed vitamin A only", "note": "",
+            "noteFor": {"male": [], "female": []},
+            "male": {
+                "9-13": {"target": 600, "kind": "RDA", "max": 1700},
+                "14-18": {"target": 900, "kind": "RDA", "max": 2800},
+                "19-30": {"target": 900, "kind": "RDA", "max": 3000},
+                "31-50": {"target": 900, "kind": "RDA", "max": 3000},
+                "51-70": {"target": 900, "kind": "RDA", "max": 3000},
+                "71+": {"target": 900, "kind": "RDA", "max": 3000}
+            },
+            "female": {
+                "9-13": {"target": 600, "kind": "RDA", "max": 1700},
+                "14-18": {"target": 700, "kind": "RDA", "max": 2800},
+                "19-30": {"target": 700, "kind": "RDA", "max": 3000},
+                "31-50": {"target": 700, "kind": "RDA", "max": 3000},
+                "51-70": {"target": 700, "kind": "RDA", "max": 3000},
+                "71+": {"target": 700, "kind": "RDA", "max": 3000}
+            }
+        },
+        "Vitamin C": {
+            "group": "vitamin", "unit": "mg",
+            "maxNote": "", "note": "",
+            "noteFor": {"male": [], "female": []},
+            "male": {
+                "9-13": {"target": 45, "kind": "RDA", "max": 1200},
+                "14-18": {"target": 75, "kind": "RDA", "max": 1800},
+                "19-30": {"target": 90, "kind": "RDA", "max": 2000},
+                "31-50": {"target": 90, "kind": "RDA", "max": 2000},
+                "51-70": {"target": 90, "kind": "RDA", "max": 2000},
+                "71+": {"target": 90, "kind": "RDA", "max": 2000}
+            },
+            "female": {
+                "9-13": {"target": 45, "kind": "RDA", "max": 1200},
+                "14-18": {"target": 65, "kind": "RDA", "max": 1800},
+                "19-30": {"target": 75, "kind": "RDA", "max": 2000},
+                "31-50": {"target": 75, "kind": "RDA", "max": 2000},
+                "51-70": {"target": 75, "kind": "RDA", "max": 2000},
+                "71+": {"target": 75, "kind": "RDA", "max": 2000}
+            }
+        },
+        "Vitamin D": {
+            "group": "vitamin", "unit": "µg",
+            "maxNote": "", "note": "assumes minimal sunlight",
+            "noteFor": {"male": ["9-13", "14-18", "19-30", "31-50", "51-70", "71+"], "female": ["9-13", "14-18", "19-30", "31-50", "51-70", "71+"]},
+            "male": {
+                "9-13": {"target": 15, "kind": "RDA", "max": 100},
+                "14-18": {"target": 15, "kind": "RDA", "max": 100},
+                "19-30": {"target": 15, "kind": "RDA", "max": 100},
+                "31-50": {"target": 15, "kind": "RDA", "max": 100},
+                "51-70": {"target": 15, "kind": "RDA", "max": 100},
+                "71+": {"target": 20, "kind": "RDA", "max": 100}
+            },
+            "female": {
+                "9-13": {"target": 15, "kind": "RDA", "max": 100},
+                "14-18": {"target": 15, "kind": "RDA", "max": 100},
+                "19-30": {"target": 15, "kind": "RDA", "max": 100},
+                "31-50": {"target": 15, "kind": "RDA", "max": 100},
+                "51-70": {"target": 15, "kind": "RDA", "max": 100},
+                "71+": {"target": 20, "kind": "RDA", "max": 100}
+            }
+        },
+        "Vitamin E": {
+            "group": "vitamin", "unit": "mg",
+            "maxNote": "from supplements only", "note": "",
+            "noteFor": {"male": [], "female": []},
+            "male": {
+                "9-13": {"target": 11, "kind": "RDA", "max": 600},
+                "14-18": {"target": 15, "kind": "RDA", "max": 800},
+                "19-30": {"target": 15, "kind": "RDA", "max": 1000},
+                "31-50": {"target": 15, "kind": "RDA", "max": 1000},
+                "51-70": {"target": 15, "kind": "RDA", "max": 1000},
+                "71+": {"target": 15, "kind": "RDA", "max": 1000}
+            },
+            "female": {
+                "9-13": {"target": 11, "kind": "RDA", "max": 600},
+                "14-18": {"target": 15, "kind": "RDA", "max": 800},
+                "19-30": {"target": 15, "kind": "RDA", "max": 1000},
+                "31-50": {"target": 15, "kind": "RDA", "max": 1000},
+                "51-70": {"target": 15, "kind": "RDA", "max": 1000},
+                "71+": {"target": 15, "kind": "RDA", "max": 1000}
+            }
+        },
+        "Vitamin K": {
+            "group": "vitamin", "unit": "µg",
+            "maxNote": "", "note": "",
+            "noteFor": {"male": [], "female": []},
+            "male": {
+                "9-13": {"target": 60, "kind": "AI", "max": null},
+                "14-18": {"target": 75, "kind": "AI", "max": null},
+                "19-30": {"target": 120, "kind": "AI", "max": null},
+                "31-50": {"target": 120, "kind": "AI", "max": null},
+                "51-70": {"target": 120, "kind": "AI", "max": null},
+                "71+": {"target": 120, "kind": "AI", "max": null}
+            },
+            "female": {
+                "9-13": {"target": 60, "kind": "AI", "max": null},
+                "14-18": {"target": 75, "kind": "AI", "max": null},
+                "19-30": {"target": 90, "kind": "AI", "max": null},
+                "31-50": {"target": 90, "kind": "AI", "max": null},
+                "51-70": {"target": 90, "kind": "AI", "max": null},
+                "71+": {"target": 90, "kind": "AI", "max": null}
+            }
+        },
+        "Vitamin B1 (thiamin)": {
+            "group": "vitamin", "unit": "mg",
+            "maxNote": "", "note": "",
+            "noteFor": {"male": [], "female": []},
+            "male": {
+                "9-13": {"target": 0.9, "kind": "RDA", "max": null},
+                "14-18": {"target": 1.2, "kind": "RDA", "max": null},
+                "19-30": {"target": 1.2, "kind": "RDA", "max": null},
+                "31-50": {"target": 1.2, "kind": "RDA", "max": null},
+                "51-70": {"target": 1.2, "kind": "RDA", "max": null},
+                "71+": {"target": 1.2, "kind": "RDA", "max": null}
+            },
+            "female": {
+                "9-13": {"target": 0.9, "kind": "RDA", "max": null},
+                "14-18": {"target": 1.0, "kind": "RDA", "max": null},
+                "19-30": {"target": 1.1, "kind": "RDA", "max": null},
+                "31-50": {"target": 1.1, "kind": "RDA", "max": null},
+                "51-70": {"target": 1.1, "kind": "RDA", "max": null},
+                "71+": {"target": 1.1, "kind": "RDA", "max": null}
+            }
+        },
+        "Vitamin B2 (riboflavin)": {
+            "group": "vitamin", "unit": "mg",
+            "maxNote": "", "note": "",
+            "noteFor": {"male": [], "female": []},
+            "male": {
+                "9-13": {"target": 0.9, "kind": "RDA", "max": null},
+                "14-18": {"target": 1.3, "kind": "RDA", "max": null},
+                "19-30": {"target": 1.3, "kind": "RDA", "max": null},
+                "31-50": {"target": 1.3, "kind": "RDA", "max": null},
+                "51-70": {"target": 1.3, "kind": "RDA", "max": null},
+                "71+": {"target": 1.3, "kind": "RDA", "max": null}
+            },
+            "female": {
+                "9-13": {"target": 0.9, "kind": "RDA", "max": null},
+                "14-18": {"target": 1.0, "kind": "RDA", "max": null},
+                "19-30": {"target": 1.1, "kind": "RDA", "max": null},
+                "31-50": {"target": 1.1, "kind": "RDA", "max": null},
+                "51-70": {"target": 1.1, "kind": "RDA", "max": null},
+                "71+": {"target": 1.1, "kind": "RDA", "max": null}
+            }
+        },
+        "Vitamin B3 (niacin)": {
+            "group": "vitamin", "unit": "mg NE",
+            "maxNote": "from supplements and fortified foods only", "note": "",
+            "noteFor": {"male": [], "female": []},
+            "male": {
+                "9-13": {"target": 12, "kind": "RDA", "max": 20},
+                "14-18": {"target": 16, "kind": "RDA", "max": 30},
+                "19-30": {"target": 16, "kind": "RDA", "max": 35},
+                "31-50": {"target": 16, "kind": "RDA", "max": 35},
+                "51-70": {"target": 16, "kind": "RDA", "max": 35},
+                "71+": {"target": 16, "kind": "RDA", "max": 35}
+            },
+            "female": {
+                "9-13": {"target": 12, "kind": "RDA", "max": 20},
+                "14-18": {"target": 14, "kind": "RDA", "max": 30},
+                "19-30": {"target": 14, "kind": "RDA", "max": 35},
+                "31-50": {"target": 14, "kind": "RDA", "max": 35},
+                "51-70": {"target": 14, "kind": "RDA", "max": 35},
+                "71+": {"target": 14, "kind": "RDA", "max": 35}
+            }
+        },
+        "Vitamin B5 (pantothenic acid)": {
+            "group": "vitamin", "unit": "mg",
+            "maxNote": "", "note": "",
+            "noteFor": {"male": [], "female": []},
+            "male": {
+                "9-13": {"target": 4, "kind": "AI", "max": null},
+                "14-18": {"target": 5, "kind": "AI", "max": null},
+                "19-30": {"target": 5, "kind": "AI", "max": null},
+                "31-50": {"target": 5, "kind": "AI", "max": null},
+                "51-70": {"target": 5, "kind": "AI", "max": null},
+                "71+": {"target": 5, "kind": "AI", "max": null}
+            },
+            "female": {
+                "9-13": {"target": 4, "kind": "AI", "max": null},
+                "14-18": {"target": 5, "kind": "AI", "max": null},
+                "19-30": {"target": 5, "kind": "AI", "max": null},
+                "31-50": {"target": 5, "kind": "AI", "max": null},
+                "51-70": {"target": 5, "kind": "AI", "max": null},
+                "71+": {"target": 5, "kind": "AI", "max": null}
+            }
+        },
+        "Vitamin B6": {
+            "group": "vitamin", "unit": "mg",
+            "maxNote": "", "note": "",
+            "noteFor": {"male": [], "female": []},
+            "male": {
+                "9-13": {"target": 1.0, "kind": "RDA", "max": 60},
+                "14-18": {"target": 1.3, "kind": "RDA", "max": 80},
+                "19-30": {"target": 1.3, "kind": "RDA", "max": 100},
+                "31-50": {"target": 1.3, "kind": "RDA", "max": 100},
+                "51-70": {"target": 1.7, "kind": "RDA", "max": 100},
+                "71+": {"target": 1.7, "kind": "RDA", "max": 100}
+            },
+            "female": {
+                "9-13": {"target": 1.0, "kind": "RDA", "max": 60},
+                "14-18": {"target": 1.2, "kind": "RDA", "max": 80},
+                "19-30": {"target": 1.3, "kind": "RDA", "max": 100},
+                "31-50": {"target": 1.3, "kind": "RDA", "max": 100},
+                "51-70": {"target": 1.5, "kind": "RDA", "max": 100},
+                "71+": {"target": 1.5, "kind": "RDA", "max": 100}
+            }
+        },
+        "Vitamin B7 (biotin)": {
+            "group": "vitamin", "unit": "µg",
+            "maxNote": "", "note": "",
+            "noteFor": {"male": [], "female": []},
+            "male": {
+                "9-13": {"target": 20, "kind": "AI", "max": null},
+                "14-18": {"target": 25, "kind": "AI", "max": null},
+                "19-30": {"target": 30, "kind": "AI", "max": null},
+                "31-50": {"target": 30, "kind": "AI", "max": null},
+                "51-70": {"target": 30, "kind": "AI", "max": null},
+                "71+": {"target": 30, "kind": "AI", "max": null}
+            },
+            "female": {
+                "9-13": {"target": 20, "kind": "AI", "max": null},
+                "14-18": {"target": 25, "kind": "AI", "max": null},
+                "19-30": {"target": 30, "kind": "AI", "max": null},
+                "31-50": {"target": 30, "kind": "AI", "max": null},
+                "51-70": {"target": 30, "kind": "AI", "max": null},
+                "71+": {"target": 30, "kind": "AI", "max": null}
+            }
+        },
+        "Vitamin B9 (folate)": {
+            "group": "vitamin", "unit": "µg DFE",
+            "maxNote": "folic acid from supplements and fortified foods only", "note": "women who can become pregnant: 400 µg from supplements or fortified foods",
+            "noteFor": {"male": [], "female": ["14-18", "19-30", "31-50"]},
+            "male": {
+                "9-13": {"target": 300, "kind": "RDA", "max": 600},
+                "14-18": {"target": 400, "kind": "RDA", "max": 800},
+                "19-30": {"target": 400, "kind": "RDA", "max": 1000},
+                "31-50": {"target": 400, "kind": "RDA", "max": 1000},
+                "51-70": {"target": 400, "kind": "RDA", "max": 1000},
+                "71+": {"target": 400, "kind": "RDA", "max": 1000}
+            },
+            "female": {
+                "9-13": {"target": 300, "kind": "RDA", "max": 600},
+                "14-18": {"target": 400, "kind": "RDA", "max": 800},
+                "19-30": {"target": 400, "kind": "RDA", "max": 1000},
+                "31-50": {"target": 400, "kind": "RDA", "max": 1000},
+                "51-70": {"target": 400, "kind": "RDA", "max": 1000},
+                "71+": {"target": 400, "kind": "RDA", "max": 1000}
+            }
+        },
+        "Vitamin B12": {
+            "group": "vitamin", "unit": "µg",
+            "maxNote": "", "note": "over 50: get it mainly from fortified foods or a supplement",
+            "noteFor": {"male": ["51-70", "71+"], "female": ["51-70", "71+"]},
+            "male": {
+                "9-13": {"target": 1.8, "kind": "RDA", "max": null},
+                "14-18": {"target": 2.4, "kind": "RDA", "max": null},
+                "19-30": {"target": 2.4, "kind": "RDA", "max": null},
+                "31-50": {"target": 2.4, "kind": "RDA", "max": null},
+                "51-70": {"target": 2.4, "kind": "RDA", "max": null},
+                "71+": {"target": 2.4, "kind": "RDA", "max": null}
+            },
+            "female": {
+                "9-13": {"target": 1.8, "kind": "RDA", "max": null},
+                "14-18": {"target": 2.4, "kind": "RDA", "max": null},
+                "19-30": {"target": 2.4, "kind": "RDA", "max": null},
+                "31-50": {"target": 2.4, "kind": "RDA", "max": null},
+                "51-70": {"target": 2.4, "kind": "RDA", "max": null},
+                "71+": {"target": 2.4, "kind": "RDA", "max": null}
+            }
+        },
+        "Choline": {
+            "group": "vitamin", "unit": "mg",
+            "maxNote": "", "note": "",
+            "noteFor": {"male": [], "female": []},
+            "male": {
+                "9-13": {"target": 375, "kind": "AI", "max": 2000},
+                "14-18": {"target": 550, "kind": "AI", "max": 3000},
+                "19-30": {"target": 550, "kind": "AI", "max": 3500},
+                "31-50": {"target": 550, "kind": "AI", "max": 3500},
+                "51-70": {"target": 550, "kind": "AI", "max": 3500},
+                "71+": {"target": 550, "kind": "AI", "max": 3500}
+            },
+            "female": {
+                "9-13": {"target": 375, "kind": "AI", "max": 2000},
+                "14-18": {"target": 400, "kind": "AI", "max": 3000},
+                "19-30": {"target": 425, "kind": "AI", "max": 3500},
+                "31-50": {"target": 425, "kind": "AI", "max": 3500},
+                "51-70": {"target": 425, "kind": "AI", "max": 3500},
+                "71+": {"target": 425, "kind": "AI", "max": 3500}
+            }
+        },
+        "Calcium": {
+            "group": "mineral", "unit": "mg",
+            "maxNote": "", "note": "",
+            "noteFor": {"male": [], "female": []},
+            "male": {
+                "9-13": {"target": 1300, "kind": "RDA", "max": 3000},
+                "14-18": {"target": 1300, "kind": "RDA", "max": 3000},
+                "19-30": {"target": 1000, "kind": "RDA", "max": 2500},
+                "31-50": {"target": 1000, "kind": "RDA", "max": 2500},
+                "51-70": {"target": 1000, "kind": "RDA", "max": 2000},
+                "71+": {"target": 1200, "kind": "RDA", "max": 2000}
+            },
+            "female": {
+                "9-13": {"target": 1300, "kind": "RDA", "max": 3000},
+                "14-18": {"target": 1300, "kind": "RDA", "max": 3000},
+                "19-30": {"target": 1000, "kind": "RDA", "max": 2500},
+                "31-50": {"target": 1000, "kind": "RDA", "max": 2500},
+                "51-70": {"target": 1200, "kind": "RDA", "max": 2000},
+                "71+": {"target": 1200, "kind": "RDA", "max": 2000}
+            }
+        },
+        "Iron": {
+            "group": "mineral", "unit": "mg",
+            "maxNote": "", "note": "",
+            "noteFor": {"male": [], "female": []},
+            "male": {
+                "9-13": {"target": 8, "kind": "RDA", "max": 40},
+                "14-18": {"target": 11, "kind": "RDA", "max": 45},
+                "19-30": {"target": 8, "kind": "RDA", "max": 45},
+                "31-50": {"target": 8, "kind": "RDA", "max": 45},
+                "51-70": {"target": 8, "kind": "RDA", "max": 45},
+                "71+": {"target": 8, "kind": "RDA", "max": 45}
+            },
+            "female": {
+                "9-13": {"target": 8, "kind": "RDA", "max": 40},
+                "14-18": {"target": 15, "kind": "RDA", "max": 45},
+                "19-30": {"target": 18, "kind": "RDA", "max": 45},
+                "31-50": {"target": 18, "kind": "RDA", "max": 45},
+                "51-70": {"target": 8, "kind": "RDA", "max": 45},
+                "71+": {"target": 8, "kind": "RDA", "max": 45}
+            }
+        },
+        "Magnesium": {
+            "group": "mineral", "unit": "mg",
+            "maxNote": "from supplements only", "note": "",
+            "noteFor": {"male": [], "female": []},
+            "male": {
+                "9-13": {"target": 240, "kind": "RDA", "max": 350},
+                "14-18": {"target": 410, "kind": "RDA", "max": 350},
+                "19-30": {"target": 400, "kind": "RDA", "max": 350},
+                "31-50": {"target": 420, "kind": "RDA", "max": 350},
+                "51-70": {"target": 420, "kind": "RDA", "max": 350},
+                "71+": {"target": 420, "kind": "RDA", "max": 350}
+            },
+            "female": {
+                "9-13": {"target": 240, "kind": "RDA", "max": 350},
+                "14-18": {"target": 360, "kind": "RDA", "max": 350},
+                "19-30": {"target": 310, "kind": "RDA", "max": 350},
+                "31-50": {"target": 320, "kind": "RDA", "max": 350},
+                "51-70": {"target": 320, "kind": "RDA", "max": 350},
+                "71+": {"target": 320, "kind": "RDA", "max": 350}
+            }
+        },
+        "Zinc": {
+            "group": "mineral", "unit": "mg",
+            "maxNote": "", "note": "",
+            "noteFor": {"male": [], "female": []},
+            "male": {
+                "9-13": {"target": 8, "kind": "RDA", "max": 23},
+                "14-18": {"target": 11, "kind": "RDA", "max": 34},
+                "19-30": {"target": 11, "kind": "RDA", "max": 40},
+                "31-50": {"target": 11, "kind": "RDA", "max": 40},
+                "51-70": {"target": 11, "kind": "RDA", "max": 40},
+                "71+": {"target": 11, "kind": "RDA", "max": 40}
+            },
+            "female": {
+                "9-13": {"target": 8, "kind": "RDA", "max": 23},
+                "14-18": {"target": 9, "kind": "RDA", "max": 34},
+                "19-30": {"target": 8, "kind": "RDA", "max": 40},
+                "31-50": {"target": 8, "kind": "RDA", "max": 40},
+                "51-70": {"target": 8, "kind": "RDA", "max": 40},
+                "71+": {"target": 8, "kind": "RDA", "max": 40}
+            }
+        },
+        "Potassium": {
+            "group": "mineral", "unit": "mg",
+            "maxNote": "", "note": "",
+            "noteFor": {"male": [], "female": []},
+            "male": {
+                "9-13": {"target": 2500, "kind": "AI", "max": null},
+                "14-18": {"target": 3000, "kind": "AI", "max": null},
+                "19-30": {"target": 3400, "kind": "AI", "max": null},
+                "31-50": {"target": 3400, "kind": "AI", "max": null},
+                "51-70": {"target": 3400, "kind": "AI", "max": null},
+                "71+": {"target": 3400, "kind": "AI", "max": null}
+            },
+            "female": {
+                "9-13": {"target": 2300, "kind": "AI", "max": null},
+                "14-18": {"target": 2300, "kind": "AI", "max": null},
+                "19-30": {"target": 2600, "kind": "AI", "max": null},
+                "31-50": {"target": 2600, "kind": "AI", "max": null},
+                "51-70": {"target": 2600, "kind": "AI", "max": null},
+                "71+": {"target": 2600, "kind": "AI", "max": null}
+            }
+        },
+        "Sodium": {
+            "group": "mineral", "unit": "mg",
+            "maxNote": "risk-reduction limit (CDRR), not an upper limit", "note": "",
+            "noteFor": {"male": [], "female": []},
+            "male": {
+                "9-13": {"target": 1200, "kind": "AI", "max": 1800},
+                "14-18": {"target": 1500, "kind": "AI", "max": 2300},
+                "19-30": {"target": 1500, "kind": "AI", "max": 2300},
+                "31-50": {"target": 1500, "kind": "AI", "max": 2300},
+                "51-70": {"target": 1500, "kind": "AI", "max": 2300},
+                "71+": {"target": 1500, "kind": "AI", "max": 2300}
+            },
+            "female": {
+                "9-13": {"target": 1200, "kind": "AI", "max": 1800},
+                "14-18": {"target": 1500, "kind": "AI", "max": 2300},
+                "19-30": {"target": 1500, "kind": "AI", "max": 2300},
+                "31-50": {"target": 1500, "kind": "AI", "max": 2300},
+                "51-70": {"target": 1500, "kind": "AI", "max": 2300},
+                "71+": {"target": 1500, "kind": "AI", "max": 2300}
+            }
+        },
+        "Phosphorus": {
+            "group": "mineral", "unit": "mg",
+            "maxNote": "", "note": "",
+            "noteFor": {"male": [], "female": []},
+            "male": {
+                "9-13": {"target": 1250, "kind": "RDA", "max": 4000},
+                "14-18": {"target": 1250, "kind": "RDA", "max": 4000},
+                "19-30": {"target": 700, "kind": "RDA", "max": 4000},
+                "31-50": {"target": 700, "kind": "RDA", "max": 4000},
+                "51-70": {"target": 700, "kind": "RDA", "max": 4000},
+                "71+": {"target": 700, "kind": "RDA", "max": 3000}
+            },
+            "female": {
+                "9-13": {"target": 1250, "kind": "RDA", "max": 4000},
+                "14-18": {"target": 1250, "kind": "RDA", "max": 4000},
+                "19-30": {"target": 700, "kind": "RDA", "max": 4000},
+                "31-50": {"target": 700, "kind": "RDA", "max": 4000},
+                "51-70": {"target": 700, "kind": "RDA", "max": 4000},
+                "71+": {"target": 700, "kind": "RDA", "max": 3000}
+            }
+        },
+        "Selenium": {
+            "group": "mineral", "unit": "µg",
+            "maxNote": "", "note": "",
+            "noteFor": {"male": [], "female": []},
+            "male": {
+                "9-13": {"target": 40, "kind": "RDA", "max": 280},
+                "14-18": {"target": 55, "kind": "RDA", "max": 400},
+                "19-30": {"target": 55, "kind": "RDA", "max": 400},
+                "31-50": {"target": 55, "kind": "RDA", "max": 400},
+                "51-70": {"target": 55, "kind": "RDA", "max": 400},
+                "71+": {"target": 55, "kind": "RDA", "max": 400}
+            },
+            "female": {
+                "9-13": {"target": 40, "kind": "RDA", "max": 280},
+                "14-18": {"target": 55, "kind": "RDA", "max": 400},
+                "19-30": {"target": 55, "kind": "RDA", "max": 400},
+                "31-50": {"target": 55, "kind": "RDA", "max": 400},
+                "51-70": {"target": 55, "kind": "RDA", "max": 400},
+                "71+": {"target": 55, "kind": "RDA", "max": 400}
+            }
+        },
+        "Copper": {
+            "group": "mineral", "unit": "µg",
+            "maxNote": "", "note": "",
+            "noteFor": {"male": [], "female": []},
+            "male": {
+                "9-13": {"target": 700, "kind": "RDA", "max": 5000},
+                "14-18": {"target": 890, "kind": "RDA", "max": 8000},
+                "19-30": {"target": 900, "kind": "RDA", "max": 10000},
+                "31-50": {"target": 900, "kind": "RDA", "max": 10000},
+                "51-70": {"target": 900, "kind": "RDA", "max": 10000},
+                "71+": {"target": 900, "kind": "RDA", "max": 10000}
+            },
+            "female": {
+                "9-13": {"target": 700, "kind": "RDA", "max": 5000},
+                "14-18": {"target": 890, "kind": "RDA", "max": 8000},
+                "19-30": {"target": 900, "kind": "RDA", "max": 10000},
+                "31-50": {"target": 900, "kind": "RDA", "max": 10000},
+                "51-70": {"target": 900, "kind": "RDA", "max": 10000},
+                "71+": {"target": 900, "kind": "RDA", "max": 10000}
+            }
+        },
+        "Manganese": {
+            "group": "mineral", "unit": "mg",
+            "maxNote": "", "note": "",
+            "noteFor": {"male": [], "female": []},
+            "male": {
+                "9-13": {"target": 1.9, "kind": "AI", "max": 6},
+                "14-18": {"target": 2.2, "kind": "AI", "max": 9},
+                "19-30": {"target": 2.3, "kind": "AI", "max": 11},
+                "31-50": {"target": 2.3, "kind": "AI", "max": 11},
+                "51-70": {"target": 2.3, "kind": "AI", "max": 11},
+                "71+": {"target": 2.3, "kind": "AI", "max": 11}
+            },
+            "female": {
+                "9-13": {"target": 1.6, "kind": "AI", "max": 6},
+                "14-18": {"target": 1.6, "kind": "AI", "max": 9},
+                "19-30": {"target": 1.8, "kind": "AI", "max": 11},
+                "31-50": {"target": 1.8, "kind": "AI", "max": 11},
+                "51-70": {"target": 1.8, "kind": "AI", "max": 11},
+                "71+": {"target": 1.8, "kind": "AI", "max": 11}
+            }
+        },
+        "Iodine": {
+            "group": "mineral", "unit": "µg",
+            "maxNote": "", "note": "",
+            "noteFor": {"male": [], "female": []},
+            "male": {
+                "9-13": {"target": 120, "kind": "RDA", "max": 600},
+                "14-18": {"target": 150, "kind": "RDA", "max": 900},
+                "19-30": {"target": 150, "kind": "RDA", "max": 1100},
+                "31-50": {"target": 150, "kind": "RDA", "max": 1100},
+                "51-70": {"target": 150, "kind": "RDA", "max": 1100},
+                "71+": {"target": 150, "kind": "RDA", "max": 1100}
+            },
+            "female": {
+                "9-13": {"target": 120, "kind": "RDA", "max": 600},
+                "14-18": {"target": 150, "kind": "RDA", "max": 900},
+                "19-30": {"target": 150, "kind": "RDA", "max": 1100},
+                "31-50": {"target": 150, "kind": "RDA", "max": 1100},
+                "51-70": {"target": 150, "kind": "RDA", "max": 1100},
+                "71+": {"target": 150, "kind": "RDA", "max": 1100}
+            }
+        },
+        "Chromium": {
+            "group": "mineral", "unit": "µg",
+            "maxNote": "", "note": "",
+            "noteFor": {"male": [], "female": []},
+            "male": {
+                "9-13": {"target": 25, "kind": "AI", "max": null},
+                "14-18": {"target": 35, "kind": "AI", "max": null},
+                "19-30": {"target": 35, "kind": "AI", "max": null},
+                "31-50": {"target": 35, "kind": "AI", "max": null},
+                "51-70": {"target": 30, "kind": "AI", "max": null},
+                "71+": {"target": 30, "kind": "AI", "max": null}
+            },
+            "female": {
+                "9-13": {"target": 21, "kind": "AI", "max": null},
+                "14-18": {"target": 24, "kind": "AI", "max": null},
+                "19-30": {"target": 25, "kind": "AI", "max": null},
+                "31-50": {"target": 25, "kind": "AI", "max": null},
+                "51-70": {"target": 20, "kind": "AI", "max": null},
+                "71+": {"target": 20, "kind": "AI", "max": null}
+            }
+        },
+        "Fluoride": {
+            "group": "mineral", "unit": "mg",
+            "maxNote": "", "note": "",
+            "noteFor": {"male": [], "female": []},
+            "male": {
+                "9-13": {"target": 2, "kind": "AI", "max": 10},
+                "14-18": {"target": 3, "kind": "AI", "max": 10},
+                "19-30": {"target": 4, "kind": "AI", "max": 10},
+                "31-50": {"target": 4, "kind": "AI", "max": 10},
+                "51-70": {"target": 4, "kind": "AI", "max": 10},
+                "71+": {"target": 4, "kind": "AI", "max": 10}
+            },
+            "female": {
+                "9-13": {"target": 2, "kind": "AI", "max": 10},
+                "14-18": {"target": 3, "kind": "AI", "max": 10},
+                "19-30": {"target": 3, "kind": "AI", "max": 10},
+                "31-50": {"target": 3, "kind": "AI", "max": 10},
+                "51-70": {"target": 3, "kind": "AI", "max": 10},
+                "71+": {"target": 3, "kind": "AI", "max": 10}
+            }
+        },
+        "Molybdenum": {
+            "group": "mineral", "unit": "µg",
+            "maxNote": "", "note": "",
+            "noteFor": {"male": [], "female": []},
+            "male": {
+                "9-13": {"target": 34, "kind": "RDA", "max": 1100},
+                "14-18": {"target": 43, "kind": "RDA", "max": 1700},
+                "19-30": {"target": 45, "kind": "RDA", "max": 2000},
+                "31-50": {"target": 45, "kind": "RDA", "max": 2000},
+                "51-70": {"target": 45, "kind": "RDA", "max": 2000},
+                "71+": {"target": 45, "kind": "RDA", "max": 2000}
+            },
+            "female": {
+                "9-13": {"target": 34, "kind": "RDA", "max": 1100},
+                "14-18": {"target": 43, "kind": "RDA", "max": 1700},
+                "19-30": {"target": 45, "kind": "RDA", "max": 2000},
+                "31-50": {"target": 45, "kind": "RDA", "max": 2000},
+                "51-70": {"target": 45, "kind": "RDA", "max": 2000},
+                "71+": {"target": 45, "kind": "RDA", "max": 2000}
+            }
+        }
+    }
+}

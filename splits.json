@@ -1,0 +1,13 @@
+{
+    "Full Body":         {"days": 3, "schedule": "Full body x3"},
+    "Upper Lower":       {"days": 4, "schedule": "Upper / Lower / Upper / Lower"},
+    "Push Pull Legs":    {"days": 6, "schedule": "Push / Pull / Legs x2"},
+    "Push Pull":         {"days": 4, "schedule": "Push / Pull / Push / Pull"},
+    "Arnold Split":      {"days": 6, "schedule": "Chest+Back / Shoulders+Arms / Legs x2"},
+    "Bro Split":         {"days": 5, "schedule": "Chest / Back / Shoulders / Arms / Legs"},
+    "PHUL":              {"days": 4, "schedule": "Upper Power / Lower Power / Upper Hypertrophy / Lower Hypertrophy"},
+    "PHAT":              {"days": 5, "schedule": "Upper Power / Lower Power / Back+Shoulders Hypertrophy / Lower Hypertrophy / Chest+Arms Hypertrophy"},
+    "Torso Limbs":       {"days": 4, "schedule": "Torso / Limbs / Torso / Limbs"},
+    "5x5":               {"days": 3, "schedule": "Workout A / Workout B alternating"},
+    "Custom (personal)": {"days": 0, "schedule": "you type your own"}
+}
